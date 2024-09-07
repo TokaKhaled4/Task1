@@ -785,6 +785,7 @@ right: 165px;
 /* //////////////////////////////////////////////////////////// */
 
 
+/* Responsive Design for Mobile and Tablets */
 @media (max-width: 1024px) {
     header {
         background-color: #0B9586;
@@ -792,6 +793,7 @@ right: 165px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-left: 0;
 
     }
 
@@ -801,15 +803,24 @@ right: 165px;
     }
 
     .header_links {
-        margin-left: 250px;
+        margin-left: 15px;
         position: absolute;
     }
 
     .header_links a {
         text-decoration: none;
         color: rgba(255, 255, 255, 1);
-        padding-left: 40px;
+        padding-left: 20px;
         font-weight: 200 !important;
+    }
+    .call {
+        font-weight: 200 !important;
+        margin-left: 520px;
+        font-size: 15px;
+    }
+    .contact_us h2{
+        margin-left: 450px;
+        font-size: 15px;
     }
 
     .btn1 {
@@ -987,11 +998,41 @@ right: 165px;
         height: 2px;
         border: 1px solid rgba(113, 119, 125, 1);
         margin-top: 80px;
-        margin-left: 150px;
+        margin-left: 10px;
     }
 
     .copy {
         display: none;
+    }
+    .footer_content {
+        padding-top: 80px;
+        margin-left: 10px;
+    }
+    
+    .footer_content img {
+        margin-bottom: 38px;
+    }
+    
+    .footer_links a {
+        text-decoration: none;
+        padding-left: 40px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    
+    .footer_links {
+        position: absolute;
+        left: 10px;
+    
+    }
+    .footer_links2 {
+        color: rgba(146, 152, 159, 1);
+        font-weight: 400;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 60px;
     }
 
     .first_sec {
