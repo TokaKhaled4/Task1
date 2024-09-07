@@ -690,7 +690,7 @@ header img {
 footer {
     height: 412px;
     background-color: rgba(40, 54, 70, 1);
-position: relative;
+    position: relative;
 }
 
 .footer_content {
@@ -741,24 +741,26 @@ position: relative;
     position: absolute;
     top: 150px;
 }
-.sub{
-    width:147px;
-height: 48px;
-padding: 12px 34px 12px 34px;
-border-radius: 109px;
-background: rgba(255, 187, 28, 1);
-color: rgba(255, 255, 255, 1);
-font-weight: 400;
-font-size: 16px;
-border: none;
-cursor: pointer;
-z-index: 20;
-position: absolute;
-top: 150px;
-right: 165px;
+
+.sub {
+    width: 147px;
+    height: 48px;
+    padding: 12px 34px 12px 34px;
+    border-radius: 109px;
+    background: rgba(255, 187, 28, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 20;
+    position: absolute;
+    top: 150px;
+    right: 165px;
 
 }
-.news{
+
+.news {
     position: absolute;
     top: 120px;
     left: 950px;
@@ -766,26 +768,28 @@ right: 165px;
     font-weight: 400;
     font-size: 16px;
 }
-.footer_links2{
+
+.footer_links2 {
     color: rgba(146, 152, 159, 1);
     font-weight: 400;
     font-size: 14px;
     margin-left: 150px;
     margin-top: 60px;
 }
-.copy{
+
+.copy {
     color: rgba(146, 152, 159, 1);
     font-weight: 400;
     font-size: 14px;
-   position: absolute;
-   top: 320px;
-   left: 1100px;
+    position: absolute;
+    top: 320px;
+    left: 1100px;
 }
 
 /* //////////////////////////////////////////////////////////// */
 
 
-/* Responsive Design for Mobile and Tablets */
+/* Responsive Design Tablets */
 @media (max-width: 1024px) {
     header {
         background-color: #0B9586;
@@ -1098,4 +1102,128 @@ right: 165px;
     .p12 {
         font-size: 14px;
     }
+}
+
+
+/* Responsive Design Phones */
+@media (max-width: 767px) {
+    .header_links {
+        margin-left: 5px;
+        position: absolute;
+    }
+
+    .header_links a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        padding-left: 10px;
+        font-weight: 200 !important;
+    }
+    .call {
+        display: none;
+    }
+    .contact_us h2{
+        display: none;
+    }
+    .content_sec4 {
+        display: flex;
+        margin-left: 0px;
+        
+        width: 540px;
+        height: 454px;
+        column-gap: 5px;
+        justify-content: left;
+    }
+
+
+    .content_sec4 .item {
+        background-color: rgba(255, 255, 255, 1);
+        width: 150px;
+        height: 150px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+    }
+
+    .forth_sec {
+        height: 777px;
+    }
+
+    .fourth_sec_header {
+        text-align: center;
+        margin-left: 150px;
+        padding-top: 100px;
+        width: 336px;
+        margin: auto;
+    }
+
+
+    .item_img {
+
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+    .seventh_sec_header {
+        text-align: center;
+        margin-left: 150px;
+        padding-top: 80px;
+        width: 436px;
+        margin: auto;
+    }
+    .footer_line {
+        width: 450px;
+        height: 2px;
+        border: 1px solid rgba(113, 119, 125, 1);
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+
+    .content_sec8 {
+        width: 450px;
+        height: 443px;
+        padding: 40px;
+        border-radius: 24px;
+        background-color: rgba(60, 171, 144, 0.06);
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .dots {
+        position: absolute;
+        top: 45px;
+        left: 340px;
+    }
+    .arrows {
+        position: absolute;
+        left: 320px;
+        top: 350px;
+    }
+    .name {
+        margin-top: 90px;
+        margin-left: 70px;
+        margin-bottom: 5px;
+        color: rgba(28, 28, 28, 1);
+        font-weight: 700;
+        font-size: 12px;
+    }
+    
+    .position {
+        color: rgba(28, 28, 28, 1);
+        font-weight: 400;
+        font-size: 12px;
+        margin-left: 70px;
+    }
+    .quote {
+        margin-bottom: 52px;
+        color: rgba(16, 24, 40, 1);
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .quote_div {
+        width: 316px;
+        height: 144px;
+    }
+    
+    
 }
